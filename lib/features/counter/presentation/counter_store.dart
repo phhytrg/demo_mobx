@@ -5,6 +5,7 @@ part 'counter_store.g.dart';
 
 class CounterStore = CounterBase with _$CounterStore;
 
+//
 abstract class CounterBase with Store {
   @readonly
   int _value = 0;
