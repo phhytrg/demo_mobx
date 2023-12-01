@@ -1,9 +1,9 @@
 
 import 'package:mobx/mobx.dart';
 
-part 'counter.g.dart';
+part 'counter_store.g.dart';
 
-class Counter = CounterBase with _$Counter;
+class CounterStore = CounterBase with _$CounterStore;
 
 abstract class CounterBase with Store {
   @readonly
