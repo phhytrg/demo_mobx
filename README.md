@@ -1,16 +1,5 @@
-# mobx
+## This is a demo for using MobX as a state management in flutter app (combine with Provider as a package for performing Dependency injection)
 
-Demo MobX
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### There are 2 sections in this demo:
+> 1. Simple MobX(/counter): Whenever you clicking "+" button, counter in the middle of the page will increase to 1
+> 2. MobX with asynchrous state (/favorites): By default, I will show you a list of tutor with basic information and a favourite button. When clicking on this button, send update favorites list to backend and get this list again.
